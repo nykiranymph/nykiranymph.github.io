@@ -160,6 +160,7 @@ body {
 #contactForm input {
 	font-size: 110%;
 	border:solid 3px maroon;
+	widows: 100%;
 }
 textarea {
 	vertical-align: top;
@@ -291,21 +292,24 @@ textarea {
 		font-size: 150%;
 		font-weight: bold;
 		width: 100%;
+		text-align: left;
+	}
+	#contactForm h1 {
 		text-align: center;
+	}
+	#contactForm input {
+		width: 98%;
+		margin-left: 1%;
+		border: none;
 	}
 	#contactForm #button {
-		margin: 0 auto;
-		margin-left: 15.5%;
-		margin-top: 1%;
-		text-align: center;
-		padding-left: 13%;
-		padding-right: 13%;
+		margin: 0;
+		margin-left: 1%;
 	}
-	#contactForm #name {
-		margin-left: 5%;
-	}
-	#contactForm #email {
-		margin-left: 6%;
+	#contactForm textarea {
+		width: 98%;
+		margin-left: 1%;
+		border: none;
 	}
 }
 
