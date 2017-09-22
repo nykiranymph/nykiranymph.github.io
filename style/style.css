@@ -149,29 +149,27 @@ body {
 	bottom: 0;
 }
 
-#contactForm {
-	margin-right: 42%;
-	margin-left: 38%;
-	padding:22;
+#contactForm{
+	margin: 0% 27% 0% 27%;
+	padding: 1% 0 1% 0;
+}
+#contactForm span {
 	font-size: 150%;
 	font-weight: bold;
 }
-#contactForm textarea {
+#contactForm input {
+	font-size: 110%;
+	border:solid 3px maroon;
+}
+textarea {
 	vertical-align: top;
-	margin-top: 1%;
+	border:solid 3px maroon;
 }
 #contactForm #button {
-	margin-top: 1%;
-	margin-right: 3%;
-	padding: 2%;
-	padding-left: 22%;
-	padding-right: 22%;
-	border: none;
-	background-color: rgba(100,100,255,1);
-	color: rgb(200,200,200);
-}
-#contactForm #button:hover {
-	background-color: blue;
+	margin-top: 0;
+	margin-left: 9%;
+	padding: 1% 32.5% 1% 32.5%;
+	background-color: maroon;
 	color: white;
 }
 
@@ -224,13 +222,15 @@ body {
 
 #brandContainer {
 	color: purple;
-	font-size: 110%;
+	font-size: 150%;
 	font-weight: bold;
 	margin: 2%;
 }
 #brandContainer a{
 	color: purple;
 	text-decoration: none;
+	font-size: 150%;
+	font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
