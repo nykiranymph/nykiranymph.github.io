@@ -5,6 +5,7 @@
 	<link rel="icon" type="image/png" href="images/icon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script type="text/javascript" src="script/script.js"></script>
 </head>
 <body>
@@ -19,19 +20,41 @@
 		<a href="index.html">Home</a>
 		<a href="about.html">About</a>
 		<a href="portfolio.html">Portfolio</a>
-		<a href="#">Brands</a>
+		<a href="brands.html">Brands</a>
 		<a href="contact.html">Contact</a>
 	</div>
 
-	<br><br>
+	<br>
 
-	<div id="contactForm" align="center">
+	<div id="contactForm" align="right">
+		<h1 align="center">Mail Me :)</h1>
 		<form action="https://formspree.io/nykiranymphmodel@gmail.com" method="POST">
-    		<input type="text" name="name">
-    		<input type="email" name="_replyto">
-    		<input type="submit" value="Send">
+    		Name: <input type="text" name="name" id="name">
+    		<br>
+    		Email: <input type="email" name="_replyto" id="email">
+    		<br>
+    		Message: <textarea rows="5" cols="22"> </textarea>
+    		<br>
+    		<input type="submit" value="Send" id='button'>
 		</form>
 	</div>
-
+	<br>
+	<div id="social" align="center">
+		<h1>Follow me on social media ~</h1>
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-linkedin"></a>
+		<a href="#" class="fa fa-instagram"></a>
+		<a href="#" class="fa fa-snapchat-ghost"></a>
+	</div>
+	<br>
+	<div id="photographers" align='center'>
+		<h1>Photo Credits.</h1>
+		Nuepixel Media || Peter Dunn || Leonard Anderson || Roy Cano || Albert Anthony
+	</div>
+	<br><br><br>
+	<div align="center" style="font-size: 110%; font-weight: bold">
+		Website created by <a href="http://vijaybhojraj.in" target="blank">Vijaybhoj Raj</a> 
+	</div>
 </body>
 </html>

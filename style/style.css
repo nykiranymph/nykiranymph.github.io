@@ -149,6 +149,96 @@ body {
 	bottom: 0;
 }
 
+#contactForm {
+	margin-right: 42%;
+	margin-left: 38%;
+	padding:22;
+	font-size: 150%;
+	font-weight: bold;
+}
+#contactForm textarea {
+	vertical-align: top;
+	margin-top: 1%;
+}
+#contactForm #button {
+	margin-top: 1%;
+	margin-right: 3%;
+	padding: 2%;
+	padding-left: 22%;
+	padding-right: 22%;
+	border: none;
+	background-color: rgba(100,100,255,1);
+	color: rgb(200,200,200);
+}
+#contactForm #button:hover, #button {
+	margin-top: 1%;
+	margin-right: 3%;
+	padding: 2%;
+	padding-left: 24%;
+	padding-right: 24%;
+	border: none;
+	background-color: blue;
+	color: white;
+}
+
+#social {
+	font-size: 110%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  opacity: 0.9;
+}
+.fa:hover {
+	opacity: 1;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 50%;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  border-radius: 50%;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-radius: 50%;
+}
+
+#photographers {
+	font-size: 110%;
+	font-weight: bold;
+}
+
+#brandContainer {
+	color: purple;
+	font-size: 150%;
+	font-weight: bold;
+	margin: 2%;
+}
+#brandContainer a{
+	color: purple;
+	text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
 
 	.logo {
@@ -189,6 +279,39 @@ body {
 	.portfolioImage {
 			width: 100%;
 			height: auto;
-		}
+	}
+
+	#top {
+		background-color: white;
+		padding: 1%;
+		margin-left: 85%;
+		margin-right: 10%;
+		margin-bottom: 2%;
+		border-radius: 50%;
+		position: fixed;
+		bottom: 0;
+	}
+
+	#contactForm {
+		margin: 0 auto;
+		font-size: 150%;
+		font-weight: bold;
+		width: 100%;
+		text-align: center;
+	}
+	#contactForm #button {
+		margin: 0 auto;
+		margin-left: 15.5%;
+		margin-top: 1%;
+		text-align: center;
+		padding-left: 13%;
+		padding-right: 13%;
+	}
+	#contactForm #name {
+		margin-left: 5%;
+	}
+	#contactForm #email {
+		margin-left: 6%;
+	}
 }
 

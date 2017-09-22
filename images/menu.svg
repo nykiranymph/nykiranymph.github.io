@@ -16,7 +16,7 @@
    id="svg8"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="menu.svg"
-   inkscape:export-filename="C:\Users\Vijay\Dropbox\Nykira\images\menu.png"
+   inkscape:export-filename="C:\Users\Vijay\Dropbox\nykiranymph.github.io\images\menu.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="8.4852814"
-     inkscape:cx="12.910586"
+     inkscape:cx="-6.2402226"
      inkscape:cy="26.099094"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,15 +58,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-284.3)">
-    <rect
-       y="290.5813"
-       x="1.2472577"
-       height="1.0578368"
-       width="9.7597923"
-       id="rect846"
-       style="opacity:0.61199999;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.30821493"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
     <rect
        style="opacity:0.61199999;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.30821493"
        id="rect848"
@@ -77,12 +68,12 @@
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <rect
-       y="288.46561"
-       x="1.2472577"
-       height="1.0578368"
+       style="opacity:0.61199999;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.30821493"
+       id="rect844"
        width="9.7597923"
-       id="rect840"
-       style="opacity:0.61199999;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.30821493"
+       height="1.0578368"
+       x="1.2472577"
+       y="289.52347"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <rect
@@ -92,15 +83,6 @@
        height="1.0578368"
        x="1.2472577"
        y="287.40778"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <rect
-       style="opacity:0.61199999;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.30821493"
-       id="rect844"
-       width="9.7597923"
-       height="1.0578368"
-       x="1.2472577"
-       y="289.52347"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
   </g>
