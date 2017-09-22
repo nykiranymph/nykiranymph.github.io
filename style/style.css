@@ -307,8 +307,8 @@ textarea {
 		margin-left: 1%;
 	}
 	#contactForm textarea {
-		width: 98%;
-		margin-left: 1%;
+		width: 85%;
+		margin-left: 8%;
 		border: none;
 	}
 }
