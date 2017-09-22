@@ -160,7 +160,8 @@ body {
 #contactForm input {
 	font-size: 110%;
 	border:solid 3px maroon;
-	widows: 100%;
+	width: 71%;
+	margin-left: 2%;
 }
 textarea {
 	vertical-align: top;
